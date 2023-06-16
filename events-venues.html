@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en" data-template-name="event-venues">
+  <head>
+    <meta charset="UTF-8">
+    <title>development | Events Venues</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="css/app.css" rel="stylesheet"></head>
+  <body>
+    <div class="preloader"></div>
+    <header class="header">
+      <div class="header__in"><a class="header__logo" href="#"><img class="header__logo_img header__logo_img--white_mod" src="images/logo-light.svg" alt="Site logo"><img class="header__logo_img header__logo_img--black_mod" src="images/logo-black.svg" alt="Site logo"></a>
+        <button class="header__menu_trigger" type="button" aria-label="Toggle menu"><span></span></button>
+        <nav class="header__nav">
+          <div class="header__nav_in">
+            <ul class="header__list">
+              <li class="header__list_item">
+                <button class="header__list_item_btn" type="button"><span class="header__list_item_btn_title">Events</span><span class="header__list_item_btn_icon">
+                    <svg class="icon icon_chevron icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#chevron"></use>
+                    </svg></span><span class="header__list_item_btn_mobile_icon">
+                    <svg class="icon icon_chevron-right icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#chevron-right"></use>
+                    </svg></span></button>
+                <div class="header__sublist_w">
+                  <div class="header__sublist_back">
+                    <button class="header__sublist_back_btn" type="button">Events<span class="header__sublist_back_arrow">
+                        <svg class="icon icon_chevron-right icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#chevron-right"></use>
+                        </svg></span></button>
+                  </div>
+                  <ul class="header__sublist">
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Corporate Events</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Weddings</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Christmas Parties</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">School Functions</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Pacific Island Celebrations</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Trade Show &amp; Expos</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Racedays</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Hens &amp; Stags</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Other events</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">View all event types</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__list_item">
+                <button class="header__list_item_btn" type="button"><span class="header__list_item_btn_title">Venues</span><span class="header__list_item_btn_icon">
+                    <svg class="icon icon_chevron icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#chevron"></use>
+                    </svg></span><span class="header__list_item_btn_mobile_icon">
+                    <svg class="icon icon_chevron-right icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#chevron-right"></use>
+                    </svg></span></button>
+                <div class="header__sublist_w">
+                  <div class="header__sublist_back">
+                    <button class="header__sublist_back_btn" type="button">Venues<span class="header__sublist_back_arrow">
+                        <svg class="icon icon_chevron-right icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#chevron-right"></use>
+                        </svg></span></button>
+                  </div>
+                  <ul class="header__sublist">
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Corporate Events</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Weddings</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Christmas Parties</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">School Functions</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Pacific Island Celebrations</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Trade Show &amp; Expos</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Racedays</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Hens &amp; Stags</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__list_item">
+                <button class="header__list_item_btn" type="button"><span class="header__list_item_btn_title">Amenities</span><span class="header__list_item_btn_icon">
+                    <svg class="icon icon_chevron icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#chevron"></use>
+                    </svg></span><span class="header__list_item_btn_mobile_icon">
+                    <svg class="icon icon_chevron-right icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#chevron-right"></use>
+                    </svg></span></button>
+                <div class="header__sublist_w">
+                  <div class="header__sublist_back">
+                    <button class="header__sublist_back_btn" type="button">Amenities<span class="header__sublist_back_arrow">
+                        <svg class="icon icon_chevron-right icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#chevron-right"></use>
+                        </svg></span></button>
+                  </div>
+                  <ul class="header__sublist">
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Corporate Events</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Weddings</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Christmas Parties</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">School Functions</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Pacific Island Celebrations</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Trade Show &amp; Expos</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Racedays</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Hens &amp; Stags</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__list_item"><a class="header__list_item_btn" href="#">
+                  <div class="header__list_item_btn_title">Eat &amp; Drink</div></a>
+              </li>
+              <li class="header__list_item"><a class="header__list_item_btn" href="#">
+                  <div class="header__list_item_btn_title">About us</div></a>
+              </li>
+              <li class="header__list_item"><a class="header__list_item_btn" href="#">
+                  <div class="header__list_item_btn_title">Visit us</div></a>
+              </li>
+              <li class="header__list_item"><a class="header__list_item_btn" href="#">
+                  <div class="header__list_item_btn_title">Latest News</div></a>
+              </li>
+              <li class="header__list_item"><a class="header__list_item_btn" href="#">
+                  <div class="header__list_item_btn_title">Get in touch</div></a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__nav_info">
+            <div class="header__nav_info_logo"><img class="header__nav_info_img header__nav_info_img--black_mod" src="images/info_logo_black.svg" alt="developer brand logo"><img class="header__nav_info_img header__nav_info_img--white_mod" src="images/info_logo_white.svg" alt="developer brand logo"></div>
+            <div class="header__nav_info_rights">© Copyright Ellerslie Events</div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="wrapper">
+      <div class="base">
+        <section class="section hero_event js-hero-event-section hero_event--color_green_mod hero_event--mask_4_mod hero_event--slider_mod" id="overview">
+          <div class="hero_event__in">
+            <div class="hero_event__row">
+              <div class="hero_event__col">
+                <div class="hero_event__wrap">
+                  <div class="hero_event__content">
+                    <h6>venues</h6>
+                    <h1>From weddings, to business events — we can host it</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                  </div>
+                  <button class="hero_event__icon js-scroll-btn" type="button" arial-lebel="scroll to next section">
+                    <svg class="icon icon_arrow icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="hero_event__col">
+                <div class="hero_event__slider js-hero-event-slider">
+                  <div class="swiper-wrapper">
+                    <div class="hero_event__slider_item swiper-slide">
+                      <picture class="hero_event__pic">
+                        <source srcset="images/hero/03.png" type="image/png"><img class="hero_event__img" src="images/hero/03.png" alt="hero img 03.png" loading="eager">
+                      </picture>
+                    </div>
+                    <div class="hero_event__slider_item swiper-slide">
+                      <picture class="hero_event__pic">
+                        <source srcset="images/hero/02.png" type="image/png"><img class="hero_event__img" src="images/hero/02.png" alt="hero img 02.png" loading="eager">
+                      </picture>
+                    </div>
+                    <div class="hero_event__slider_item swiper-slide">
+                      <picture class="hero_event__pic">
+                        <source srcset="images/hero/01.png" type="image/png"><img class="hero_event__img" src="images/hero/01.png" alt="hero img 01.png" loading="eager">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section venue_spaces js-venue-spaces-section" id="venues">
+          <div class="section_in">
+            <div class="venue_spaces__head">
+              <h6 class="venue_spaces__subtitle">Sub-heading</h6>
+              <h2 class="venue_spaces__title">Venue Spaces</h2>
+              <div class="venue_spaces__text">
+                <p>View our venue spaces, or use our tool to find our which spaces will work with a specific number of guests.</p>
+              </div>
+            </div>
+            <div class="space_filter">
+              <div class="space_filter__body"><span class="space_filter__value">10</span>
+                <div class="space_filter__wrap">
+                  <div class="space_filter__title">
+                    <input class="space_filter__title_input js-space-filter-title" type="text" readonly>
+                  </div>
+                  <div class="space_filter__slider_w">
+                    <div class="space_filter__slider js-space-filter-slider"></div>
+                  </div>
+                </div><span class="space_filter__value">1,000+</span>
+              </div>
+            </div>
+            <div class="venue_spaces__filter_result">Showing <span class="js-venue-result"> 12 </span> results</div>
+            <div class="venue_spaces__wrap js-venue-spaces-slider">
+              <ul class="venue_spaces__list swiper-wrapper">
+                <li class="venue_spaces__item swiper-slide" data-capacity="250"><a class="event_card" href="#">
+                    <picture class="event_card__pic">
+                      <source srcset="images/event-list/01.jpg" type="image/jpeg"><img class="event_card__img" src="images/event-list/01.jpg" alt="event item 01" loading="eager">
+                    </picture>
+                    <div class="event_card__content">
+                      <h3 class="event_card__title">Tote on Ascot</h3>
+                      <div class="event_card__descr">
+                        <div class="event_card__icon">
+                          <svg class="icon icon_user icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#user"></use>
+                          </svg>
+                        </div>
+                        <p>Up to 250 guests</p>
+                      </div>
+                    </div></a>
+                </li>
+                <li class="venue_spaces__item swiper-slide" data-capacity="250"><a class="event_card" href="#">
+                    <picture class="event_card__pic">
+                      <source srcset="images/event-list/02.jpg" type="image/jpeg"><img class="event_card__img" src="images/event-list/02.jpg" alt="event item 02" loading="eager">
+                    </picture>
+                    <div class="event_card__content">
+                      <h3 class="event_card__title">Cuvée Bar & Lawn</h3>
+                      <div class="event_card__descr">
+                        <div class="event_card__icon">
+                          <svg class="icon icon_user icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#user"></use>
+                          </svg>
+                        </div>
+                        <p>Up to 250 guests</p>
+                      </div>
+                    </div></a>
+                </li>
+                <li class="venue_spaces__item swiper-slide" data-capacity="350"><a class="event_card" href="#">
+                    <picture class="event_card__pic">
+                      <source srcset="images/event-list/10.jpg" type="image/jpeg"><img class="event_card__img" src="images/event-list/10.jpg" alt="event item 3" loading="eager">
+                    </picture>
+                    <div class="event_card__content">
+                      <h3 class="event_card__title">Pakuranga Room</h3>
+                      <div class="event_card__descr">
+                        <div class="event_card__icon">
+                          <svg class="icon icon_user icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#user"></use>
+                          </svg>
+                        </div>
+                        <p>Up to 350 guests</p>
+                      </div>
+                    </div></a>
+                </li>
+                <li class="venue_spaces__item swiper-slide" data-capacity="650"><a class="event_card" href="#">
+                    <picture class="event_card__pic">
+                      <source srcset="images/event-list/04.jpg" type="image/jpeg"><img class="event_card__img" src="images/event-list/04.jpg" alt="event item 04" loading="eager">
+                    </picture>
+                    <div class="event_card__content">
+                      <h3 class="event_card__title">Guineas Ballroom</h3>
+                      <div class="event_card__descr">
+                        <div class="event_card__icon">
+                          <svg class="icon icon_user icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#user"></use>
+                          </svg>
+                        </div>
+                        <p>Up to 650 guests</p>
+                      </div>
+                    </div></a>
+                </li>
+                <li class="venue_spaces__item swiper-slide" data-capacity="150"><a class="event_card" href="#">
+                    <picture class="event_card__pic">
+                      <source srcset="images/event-list/05.jpg" type="image/jpeg"><img class="event_card__img" src="images/event-list/05.jpg" alt="event item 05" loading="eager">
+                    </picture>
+                    <div class="event_card__content">
+                      <h3 class="event_card__title">Newmarket Room</h3>
+                      <div class="event_card__descr">
+                        <div class="event_card__icon">
+                          <svg class="icon icon_user icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#user"></use>
+                          </svg>
+                        </div>
+                        <p>Up to 150 guests</p>
+                      </div>
+                    </div></a>
+                </li>
+                <li class="venue_spaces__item swiper-slide" data-capacity="150"><a class="event_card" href="#">
+                    <picture class="event_card__pic">
+                      <source srcset="images/event-list/06.jpg" type="image/jpeg"><img class="event_card__img" src="images/event-list/06.jpg" alt="event item 06" loading="eager">
+                    </picture>
+                    <div class="event_card__content">
+                      <h3 class="event_card__title">Goldstar Lounge</h3>
+                      <div class="event_card__descr">
+                        <div class="event_card__icon">
+                          <svg class="icon icon_user icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#user"></use>
+                          </svg>
+                        </div>
+                        <p>Up to 150 guests</p>
+                      </div>
+                    </div></a>
+                </li>
+                <li class="venue_spaces__item swiper-slide" data-capacity="250"><a class="event_card" href="#">
+                    <picture class="event_card__pic">
+                      <source srcset="images/event-list/11.jpg" type="image/jpeg"><img class="event_card__img" src="images/event-list/11.jpg" alt="event item 07" loading="eager">
+                    </picture>
+                    <div class="event_card__content">
+                      <h3 class="event_card__title">The Winning Post</h3>
+                      <div class="event_card__descr">
+                        <div class="event_card__icon">
+                          <svg class="icon icon_user icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#user"></use>
+                          </svg>
+                        </div>
+                        <p>Up to 250 guests</p>
+                      </div>
+                    </div></a>
+                </li>
+                <li class="venue_spaces__item swiper-slide" data-capacity="250"><a class="event_card" href="#">
+                    <picture class="event_card__pic">
+                      <source srcset="images/event-list/12.jpg" type="image/jpeg"><img class="event_card__img" src="images/event-list/12.jpg" alt="event item 08" loading="eager">
+                    </picture>
+                    <div class="event_card__content">
+                      <h3 class="event_card__title">Takanini</h3>
+                      <div class="event_card__descr">
+                        <div class="event_card__icon">
+                          <svg class="icon icon_user icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#user"></use>
+                          </svg>
+                        </div>
+                        <p>Up to 250 guests</p>
+                      </div>
+                    </div></a>
+                </li>
+              </ul>
+            </div>
+            <div class="venue_spaces__btn"><a class="btn_white" href="#">Load more</a></div>
+          </div>
+        </section>
+        <section class="section get_social js-get-social-section">
+          <div class="section_in get_social_in">
+            <div class="get_social__body">
+              <div class="get_social__header">
+                <div class="get_social__title">Get social</div>
+                <div class="get_social__subtitle">Follow <a href="#">@EllerslieEvents</a> on Instagram</div>
+              </div>
+              <div class="swiper get_social__slider js-get-social-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide get_social__slider_item"><a class="get_social__link" href="#" aria-label="Instagram picture">
+                      <picture class="get_social__picture">
+                        <source srcset="images/get-social/01.jpg" type="image/jpeg"><img class="get_social__img" src="images/get-social/01.jpg" alt="Get Social Slider" loading="eager">
+                      </picture></a></div>
+                  <div class="swiper-slide get_social__slider_item"><a class="get_social__link" href="#" aria-label="Instagram picture">
+                      <picture class="get_social__picture">
+                        <source srcset="images/get-social/02.jpg" type="image/jpeg"><img class="get_social__img" src="images/get-social/02.jpg" alt="Get Social Slider" loading="eager">
+                      </picture></a></div>
+                  <div class="swiper-slide get_social__slider_item"><a class="get_social__link" href="#" aria-label="Instagram picture">
+                      <picture class="get_social__picture">
+                        <source srcset="images/get-social/03.jpg" type="image/jpeg"><img class="get_social__img" src="images/get-social/03.jpg" alt="Get Social Slider" loading="eager">
+                      </picture></a></div>
+                  <div class="swiper-slide get_social__slider_item"><a class="get_social__link" href="#" aria-label="Instagram picture">
+                      <picture class="get_social__picture">
+                        <source srcset="images/get-social/04.jpg" type="image/jpeg"><img class="get_social__img" src="images/get-social/04.jpg" alt="Get Social Slider" loading="eager">
+                      </picture></a></div>
+                  <div class="swiper-slide get_social__slider_item"><a class="get_social__link" href="#" aria-label="Instagram picture">
+                      <picture class="get_social__picture">
+                        <source srcset="images/get-social/05.jpg" type="image/jpeg"><img class="get_social__img" src="images/get-social/05.jpg" alt="Get Social Slider" loading="eager">
+                      </picture></a></div>
+                  <div class="swiper-slide get_social__slider_item"><a class="get_social__link" href="#" aria-label="Instagram picture">
+                      <picture class="get_social__picture">
+                        <source srcset="images/get-social/01.jpg" type="image/jpeg"><img class="get_social__img" src="images/get-social/01.jpg" alt="Get Social Slider" loading="eager">
+                      </picture></a></div>
+                  <div class="swiper-slide get_social__slider_item"><a class="get_social__link" href="#" aria-label="Instagram picture">
+                      <picture class="get_social__picture">
+                        <source srcset="images/get-social/02.jpg" type="image/jpeg"><img class="get_social__img" src="images/get-social/02.jpg" alt="Get Social Slider" loading="eager">
+                      </picture></a></div>
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section join_our_newsletter">
+          <div class="section_in">
+            <div class="decor_img decor_img--coral_mod ">
+              <picture class="decor_img__bg_in">
+                <source srcset="images/decor_newsletter.svg" type="image/svg"><img class="decor_img__bg" src="images/decor_newsletter.svg" alt="decorative background element" loading="eager">
+              </picture>
+            </div>
+            <div class="join_our_newsletter__content">
+              <h3 class="join_our_newsletter__title">Join our newsletter</h3>
+              <div class="join_our_newsletter__text">
+                <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+              </div>
+              <form class="join_our_newsletter__form" action="#">
+                <div class="join_our_newsletter__form__wrap">
+                  <div class="join_our_newsletter__form_input">
+                    <div class="form_input">
+                      <label class="form_newsletter__label" for="join_our_newsletter_email">email</label>
+                      <div class="form_input__field">
+                        <input class="form_newsletter__input" type="email" id="join_our_newsletter_email" placeholder="Keep up to date, enter your email" value="">
+                      </div>
+                    </div>
+                  </div>
+                  <button class="join_our_newsletter__form_btn" type="submit">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">
+        <div class="footer_in">
+          <div class="footer__top">
+            <div class="footer__logo"><a class="footer__picture" href="#" aria-label="Company">
+                <svg class="icon icon_ellerslie icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#ellerslie"></use>
+                </svg></a>
+            </div>
+            <div class="footer__actions">
+              <ul class="footer__list footer__list--top_mod">
+                <li class="footer__item"><a class="footer__link" href="#">Facebook</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Instagram</a></li>
+              </ul>
+              <ul class="footer__list">
+                <li class="footer__item"><a class="footer__link" href="tel:095244069">09-524-4069</a></li>
+                <li class="footer__item"><a class="footer__link" href="mailto:functions@ellerslie.co.nz">functions@ellerslie.co.nz</a></li>
+                <li class="footer__item">100 Ascot Avenue, Remuera,</li>
+                <li class="footer__item">Auckland 1050</li>
+              </ul>
+            </div>
+            <div class="footer__logo">
+              <ul class="footer__list footer__list--bottom_mod">
+                <li class="footer__item footer__item--bottom_mod"><a class="footer__link" href="#">Terms & Conditions</a></li>
+                <li class="footer__item footer__item--bottom_mod"><a class="footer__link" href="#">Privacy Policy</a></li>
+              </ul><a class="footer__picture footer__picture--small_mod" href="#" aria-label="Company">
+                <svg class="icon icon_atr icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#atr"></use>
+                </svg></a>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <ul class="footer__list footer__list--bottom_mod">
+              <li class="footer__item footer__item--bottom_mod"><a class="footer__link" href="#">Terms & Conditions</a></li>
+              <li class="footer__item footer__item--bottom_mod"><a class="footer__link" href="#">Privacy Policy</a></li>
+            </ul>
+            <div class="footer__text">© Copyright Ellerslie Events Center</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  <script defer src="js/runtime.js"></script><script defer src="js/app.js"></script></body>
+</html>

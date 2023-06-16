@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en" data-template-name="venues-child">
+  <head>
+    <meta charset="UTF-8">
+    <title>development | Venues Child</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="css/app.css" rel="stylesheet"></head>
+  <body class="venues_child">
+    <div class="preloader"></div>
+    <header class="header">
+      <div class="header__in"><a class="header__logo" href="#"><img class="header__logo_img header__logo_img--white_mod" src="images/logo-light.svg" alt="Site logo"><img class="header__logo_img header__logo_img--black_mod" src="images/logo-black.svg" alt="Site logo"></a>
+        <button class="header__menu_trigger" type="button" aria-label="Toggle menu"><span></span></button>
+        <nav class="header__nav">
+          <div class="header__nav_in">
+            <ul class="header__list">
+              <li class="header__list_item">
+                <button class="header__list_item_btn" type="button"><span class="header__list_item_btn_title">Events</span><span class="header__list_item_btn_icon">
+                    <svg class="icon icon_chevron icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#chevron"></use>
+                    </svg></span><span class="header__list_item_btn_mobile_icon">
+                    <svg class="icon icon_chevron-right icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#chevron-right"></use>
+                    </svg></span></button>
+                <div class="header__sublist_w">
+                  <div class="header__sublist_back">
+                    <button class="header__sublist_back_btn" type="button">Events<span class="header__sublist_back_arrow">
+                        <svg class="icon icon_chevron-right icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#chevron-right"></use>
+                        </svg></span></button>
+                  </div>
+                  <ul class="header__sublist">
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Corporate Events</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Weddings</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Christmas Parties</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">School Functions</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Pacific Island Celebrations</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Trade Show &amp; Expos</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Racedays</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Hens &amp; Stags</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Other events</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">View all event types</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__list_item">
+                <button class="header__list_item_btn" type="button"><span class="header__list_item_btn_title">Venues</span><span class="header__list_item_btn_icon">
+                    <svg class="icon icon_chevron icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#chevron"></use>
+                    </svg></span><span class="header__list_item_btn_mobile_icon">
+                    <svg class="icon icon_chevron-right icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#chevron-right"></use>
+                    </svg></span></button>
+                <div class="header__sublist_w">
+                  <div class="header__sublist_back">
+                    <button class="header__sublist_back_btn" type="button">Venues<span class="header__sublist_back_arrow">
+                        <svg class="icon icon_chevron-right icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#chevron-right"></use>
+                        </svg></span></button>
+                  </div>
+                  <ul class="header__sublist">
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Corporate Events</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Weddings</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Christmas Parties</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">School Functions</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Pacific Island Celebrations</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Trade Show &amp; Expos</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Racedays</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Hens &amp; Stags</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__list_item">
+                <button class="header__list_item_btn" type="button"><span class="header__list_item_btn_title">Amenities</span><span class="header__list_item_btn_icon">
+                    <svg class="icon icon_chevron icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#chevron"></use>
+                    </svg></span><span class="header__list_item_btn_mobile_icon">
+                    <svg class="icon icon_chevron-right icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#chevron-right"></use>
+                    </svg></span></button>
+                <div class="header__sublist_w">
+                  <div class="header__sublist_back">
+                    <button class="header__sublist_back_btn" type="button">Amenities<span class="header__sublist_back_arrow">
+                        <svg class="icon icon_chevron-right icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#chevron-right"></use>
+                        </svg></span></button>
+                  </div>
+                  <ul class="header__sublist">
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Corporate Events</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Weddings</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Christmas Parties</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">School Functions</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Pacific Island Celebrations</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Trade Show &amp; Expos</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Racedays</a></li>
+                    <li class="header__sublist_item"><a class="header__nav_link" href="#">Hens &amp; Stags</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__list_item"><a class="header__list_item_btn" href="#">
+                  <div class="header__list_item_btn_title">Eat &amp; Drink</div></a>
+              </li>
+              <li class="header__list_item"><a class="header__list_item_btn" href="#">
+                  <div class="header__list_item_btn_title">About us</div></a>
+              </li>
+              <li class="header__list_item"><a class="header__list_item_btn" href="#">
+                  <div class="header__list_item_btn_title">Visit us</div></a>
+              </li>
+              <li class="header__list_item"><a class="header__list_item_btn" href="#">
+                  <div class="header__list_item_btn_title">Latest News</div></a>
+              </li>
+              <li class="header__list_item"><a class="header__list_item_btn" href="#">
+                  <div class="header__list_item_btn_title">Get in touch</div></a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__nav_info">
+            <div class="header__nav_info_logo"><img class="header__nav_info_img header__nav_info_img--black_mod" src="images/info_logo_black.svg" alt="developer brand logo"><img class="header__nav_info_img header__nav_info_img--white_mod" src="images/info_logo_white.svg" alt="developer brand logo"></div>
+            <div class="header__nav_info_rights">© Copyright Ellerslie Events</div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="wrapper">
+      <div class="base">
+        <section class="section hero_event js-hero-event-section hero_event--revers_mod hero_event--color_green_mod hero_event--mask_4_mod " id="overview">
+          <div class="hero_event__in">
+            <div class="hero_event__row">
+              <div class="hero_event__col">
+                <div class="hero_event__wrap">
+                  <div class="hero_event__content">
+                    <h6>venue</h6>
+                    <h1>Cuvée Bar & Lawn</h1><em>From weddings to product launches with a twist, Cuvée is the perfect option.</em>
+                    <p>Located on the ground floor of the Ascot Stand, this sleek & stylish space sits close to important elements of the racecourse in which it is located, but offers a modern, urban theme suited to events of all types.</p>
+                  </div><a class="hero_event__btn btn_white" href="#">Enquire now</a>
+                </div>
+              </div>
+              <div class="hero_event__col">
+                <picture class="hero_event__pic">
+                  <source srcset="images/hero/04.png" type="image/png"><img class="hero_event__img" src="images/hero/04.png" alt="hero img" loading="eager">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section page_nav">
+          <div class="section_in page_nav_in">
+            <div class="page_nav__body">
+              <ul class="page_nav__list">
+                <li class="page_nav__item"><a class="page_nav__link js-nav-link" href="#overview" data-text="Overview">Overview</a></li>
+                <li class="page_nav__item"><a class="page_nav__link js-nav-link" href="#specifications" data-text="Specifications">Specifications</a></li>
+                <li class="page_nav__item"><a class="page_nav__link js-nav-link" href="#gallery" data-text="Gallery">Gallery</a></li>
+                <li class="page_nav__item"><a class="page_nav__link js-nav-link" href="#atr" data-text="ATR">ATR</a></li>
+                <li class="page_nav__item"><a class="page_nav__link js-nav-link" href="#location" data-text="Location">Location</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="section latest_news_banner" id="packages">
+          <div class="section_in">
+            <div class="latest_news_banner__content">
+                      <div class="news_banner news_banner--revers_mod  " id="">
+                        <div class="news_banner__row">
+                          <div class="news_banner__col">
+                            <picture class="news_banner__pic">
+                              <source srcset="images/banner_1.jpg" type="image/jpeg"><img class="news_banner__img" src="images/banner_1.jpg" alt="banner news kitchen" loading="eager">
+                            </picture>
+                          </div>
+                          <div class="news_banner__col">
+                            <div class="news_banner__wrap">
+                              <div class="news_banner__content">
+                                <h6>Sub heading</h6>
+                                <h3>Planning your next event?</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                              </div><a class="btn_white" href="#">Find your venue</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="news_banner   " id="">
+                        <div class="news_banner__row">
+                          <div class="news_banner__col">
+                            <picture class="news_banner__pic">
+                              <source srcset="images/banner_2.jpg" type="image/jpeg"><img class="news_banner__img" src="images/banner_2.jpg" alt="banner news sofa" loading="eager">
+                            </picture>
+                          </div>
+                          <div class="news_banner__col">
+                            <div class="news_banner__wrap">
+                              <div class="news_banner__content">
+                                <h6>Sub heading</h6>
+                                <h3>Planning your next event?</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                              </div><a class="btn_white" href="#">Find your venue</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            </div>
+          </div>
+        </section>
+        <section class="section content_module content_module--venues_mod" id="specifications">
+          <div class="section_in content_module__in">
+            <div class="content_module__row">
+              <div class="content_module__col">
+                <div class="content_module__title_w">
+                  <div class="content_module__icon_w"><img class="content_module__icon" src="images/logo-content-module.svg" alt="content module logo"></div>
+                  <h2 class="content_module__title">From weddings to product launches with a twist, Cuvée is the perfect option.</h2>
+                </div>
+              </div>
+              <div class="content_module__col">
+                <div class="content_module__info_w">
+                  <div class="content_module__info_price">
+                    <div class="content_module__info_price_title">Venue specifications</div>
+                    <ul class="content_module__info_price_list">
+                      <li class="content_module__info_price_row_w">
+                        <ul class="content_module__info_price_row">
+                          <li class="content_module__info_price_col">
+                            <div class="content_module__info_price_col_style">Banquet-style</div>
+                            <div class="content_module__info_price_col_including">- (including lawn)</div>
+                          </li>
+                          <li class="content_module__info_price_col">
+                            <div class="content_module__info_price_col_style">70 pax</div>
+                            <div class="content_module__info_price_col_including">280 pax</div>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="content_module__info_price_row_w">
+                        <ul class="content_module__info_price_row">
+                          <li class="content_module__info_price_col">
+                            <div class="content_module__info_price_col_style">Boardroom-style</div>
+                          </li>
+                          <li class="content_module__info_price_col">
+                            <div class="content_module__info_price_col_style">20 pax</div>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="content_module__info_price_row_w">
+                        <ul class="content_module__info_price_row">
+                          <li class="content_module__info_price_col">
+                            <div class="content_module__info_price_col_style">Cocktail-style</div>
+                            <div class="content_module__info_price_col_including">- (including lawn)</div>
+                          </li>
+                          <li class="content_module__info_price_col">
+                            <div class="content_module__info_price_col_style">200 pax</div>
+                            <div class="content_module__info_price_col_including">800 pax</div>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="content_module__info_price_row_w content_module__info_price_row_w--offset_mod">
+                        <ul class="content_module__info_price_row">
+                          <li class="content_module__info_price_col">
+                            <div class="content_module__info_price_col_style">Classroom-style</div>
+                          </li>
+                          <li class="content_module__info_price_col">
+                            <div class="content_module__info_price_col_style">30 pax</div>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="content_module__info_price_row_w">
+                        <ul class="content_module__info_price_row">
+                          <li class="content_module__info_price_col">
+                            <div class="content_module__info_price_col_style">Ceiling height</div>
+                          </li>
+                          <li class="content_module__info_price_col">
+                            <div class="content_module__info_price_col_style">Varies</div>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="content_module__info_price_row_w">
+                        <ul class="content_module__info_price_row">
+                          <li class="content_module__info_price_col">
+                            <div class="content_module__info_price_col_style">Venue size</div>
+                          </li>
+                          <li class="content_module__info_price_col">
+                            <div class="content_module__info_price_col_style">190m²</div>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="content_module__info_btn_w js-popup-download-btn"><a class="btn_white_2 content_module__info_btn" href="#">Download floor plan PDF </a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section promo_banner js-banner-section">
+          <div class="section_in promo_banner_in">
+            <div class="promo_banner__body">
+              <div class="promo_banner__info">
+                <div class="promo_banner__content">
+                  <h4>digital brochure</h4>
+                  <h3>Cuvée Bar & Lawn 2023 Pricing & Packages</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p><a href="#">Download now</a>
+                </div>
+              </div>
+              <div class="swiper promo_banner__slider js-banner-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide promo_banner__slider_item">
+                    <picture class="promo_banner__picture">
+                      <source srcset="images/promo-banner/01.jpg" type="image/jpeg"><img class="promo_banner__img" src="images/promo-banner/01.jpg" alt="Promo Banner Image" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide promo_banner__slider_item">
+                    <picture class="promo_banner__picture">
+                      <source srcset="images/promo-banner/02.jpg" type="image/jpeg"><img class="promo_banner__img" src="images/promo-banner/02.jpg" alt="Promo Banner Image" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide promo_banner__slider_item">
+                    <picture class="promo_banner__picture">
+                      <source srcset="images/promo-banner/03.jpg" type="image/jpeg"><img class="promo_banner__img" src="images/promo-banner/03.jpg" alt="Promo Banner Image" loading="eager">
+                    </picture>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section gallery" id="gallery">
+          <div class="section_in gallery__in">
+            <div class="gallery__heading">
+              <h2 class="gallery__title">Gallery</h2>
+              <div class="gallery__descr">
+                <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+              </div>
+            </div>
+            <div class="gallery__list_drag">
+              <div class="gallery__list_w js-slider-gallery">
+                <div class="gallery__list js-slider-gallery-wrapper">
+                  <div class="gallery__item">
+                    <div class="gallery__item_in"><a class="gallery__item_link" href="#" data-fancybox="gallery" data-src="images/gallery/0.jpg">
+                        <picture class="gallery__item_img_w">
+                          <source srcset="images/gallery/0.jpg" type="image/jpeg"><img class="gallery__item_img" src="images/gallery/0.jpg" alt=" " loading="eager">
+                        </picture></a></div>
+                  </div>
+                  <div class="gallery__item">
+                    <div class="gallery__item_in"><a class="gallery__item_link" href="#" data-fancybox="gallery" data-src="images/gallery/1.jpg">
+                        <picture class="gallery__item_img_w">
+                          <source srcset="images/gallery/1.jpg" type="image/jpeg"><img class="gallery__item_img" src="images/gallery/1.jpg" alt=" " loading="eager">
+                        </picture></a></div>
+                  </div>
+                  <div class="gallery__item">
+                    <div class="gallery__item_in"><a class="gallery__item_link" href="#" data-fancybox="gallery" data-src="images/gallery/2.jpg">
+                        <picture class="gallery__item_img_w">
+                          <source srcset="images/gallery/2.jpg" type="image/jpeg"><img class="gallery__item_img" src="images/gallery/2.jpg" alt=" " loading="eager">
+                        </picture></a></div>
+                  </div>
+                  <div class="gallery__item">
+                    <div class="gallery__item_in"><a class="gallery__item_link" href="#" data-fancybox="gallery" data-src="images/gallery/3.jpg">
+                        <picture class="gallery__item_img_w">
+                          <source srcset="images/gallery/3.jpg" type="image/jpeg"><img class="gallery__item_img" src="images/gallery/3.jpg" alt=" " loading="eager">
+                        </picture></a></div>
+                  </div>
+                  <div class="gallery__item">
+                    <div class="gallery__item_in"><a class="gallery__item_link" href="#" data-fancybox="gallery" data-src="images/gallery/4.jpg">
+                        <picture class="gallery__item_img_w">
+                          <source srcset="images/gallery/4.jpg" type="image/jpeg"><img class="gallery__item_img" src="images/gallery/4.jpg" alt=" " loading="eager">
+                        </picture></a></div>
+                  </div>
+                  <div class="gallery__item">
+                    <div class="gallery__item_in"><a class="gallery__item_link" href="#" data-fancybox="gallery" data-src="images/gallery/5.jpg">
+                        <picture class="gallery__item_img_w">
+                          <source srcset="images/gallery/5.jpg" type="image/jpeg"><img class="gallery__item_img" src="images/gallery/5.jpg" alt=" " loading="eager">
+                        </picture></a></div>
+                  </div>
+                  <div class="gallery__item">
+                    <div class="gallery__item_in"><a class="gallery__item_link" href="#" data-fancybox="gallery" data-src="images/gallery/6.jpg">
+                        <picture class="gallery__item_img_w">
+                          <source srcset="images/gallery/6.jpg" type="image/jpeg"><img class="gallery__item_img" src="images/gallery/6.jpg" alt=" " loading="eager">
+                        </picture></a></div>
+                  </div>
+                  <div class="gallery__item">
+                    <div class="gallery__item_in"><a class="gallery__item_link" href="#" data-fancybox="gallery" data-src="images/gallery/7.jpg">
+                        <picture class="gallery__item_img_w">
+                          <source srcset="images/gallery/7.jpg" type="image/jpeg"><img class="gallery__item_img" src="images/gallery/7.jpg" alt=" " loading="eager">
+                        </picture></a></div>
+                  </div>
+                  <div class="gallery__item">
+                    <div class="gallery__item_in"><a class="gallery__item_link" href="#" data-fancybox="gallery" data-src="images/gallery/8.jpg">
+                        <picture class="gallery__item_img_w">
+                          <source srcset="images/gallery/8.jpg" type="image/jpeg"><img class="gallery__item_img" src="images/gallery/8.jpg" alt=" " loading="eager">
+                        </picture></a></div>
+                  </div>
+                  <div class="gallery__item">
+                    <div class="gallery__item_in"><a class="gallery__item_link" href="#" data-fancybox="gallery" data-src="images/gallery/9.jpg">
+                        <picture class="gallery__item_img_w">
+                          <source srcset="images/gallery/9.jpg" type="image/jpeg"><img class="gallery__item_img" src="images/gallery/9.jpg" alt=" " loading="eager">
+                        </picture></a></div>
+                  </div>
+                </div>
+                <div class="gallery__scrollbar_w">
+                  <div class="swiper-scrollbar gallery__scrollbar js-slider-gallery-scrollbar"></div>
+                </div>
+              </div>
+              <div class="gallery__scrollbar_desk_w">
+                <div class="gallery__scrollbar_desk js-slider-gallery-scrollbar-desk"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section full_screen" id="atr">
+          <div class="full_screen__bg">
+            <video class="full_screen__video js-view-on-scroll" autoplay muted loop playsinline>
+              <source src="images/full-screen/video.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="full_screen__body">
+            <h6 class="full_screen__subtitle">full-width video</h6>
+            <h2 class="full_screen__title">Planning your next event?</h2><a class="full_screen__button" href="https://www.youtube.com/watch?v=LXb3EKWsInQ" data-fancybox data-type="video" aria-label="Play Video">
+              <div class="full_screen__picture_btn">
+                <svg class="icon icon_play-button icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#play-button"></use>
+                </svg>
+              </div></a>
+          </div>
+        </section>
+        <section class="section banner_promo js-banner-promo-section  banner_promo--coral_mod banner_promo--mask-2_mod" id="history">
+          <div class="banner_promo__body">
+            <div class="banner_promo__bg">
+              <div class="swiper banner_promo__image js-banner-promo-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide banner_promo__slider_item">
+                    <picture class="banner_promo__picture">
+                      <source srcset="images/event-list/01.jpg" type="image/jpeg"><img class="banner_promo__img" src="images/event-list/01.jpg" alt="Banner Promo Image" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide banner_promo__slider_item">
+                    <picture class="banner_promo__picture">
+                      <source srcset="images/event-list/02.jpg" type="image/jpeg"><img class="banner_promo__img" src="images/event-list/02.jpg" alt="Banner Promo Image" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide banner_promo__slider_item">
+                    <picture class="banner_promo__picture">
+                      <source srcset="images/event-list/03.jpg" type="image/jpeg"><img class="banner_promo__img" src="images/event-list/03.jpg" alt="Banner Promo Image" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide banner_promo__slider_item">
+                    <picture class="banner_promo__picture">
+                      <source srcset="images/event-list/04.jpg" type="image/jpeg"><img class="banner_promo__img" src="images/event-list/04.jpg" alt="Banner Promo Image" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide banner_promo__slider_item">
+                    <picture class="banner_promo__picture">
+                      <source srcset="images/event-list/05.jpg" type="image/jpeg"><img class="banner_promo__img" src="images/event-list/05.jpg" alt="Banner Promo Image" loading="eager">
+                    </picture>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="banner_promo__info">
+              <div class="banner_promo__content">
+                <h4>Sub-heading</h4>
+                <h3>Over 80 years of event experience</h3><strong>Take the stress and hassle out of planning your event, our professional Account Managers would be thrilled to manage your event and tailor the venue to your needs.</strong>
+                <p>If you’d like someone to take the stress and hassle out of planning your function, our professional Account Managers would be thrilled to manage your event and tailor the venue to your needs.</p><a href="#">Enquire now</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section banner_promo js-banner-promo-section banner_promo--reversed_mod banner_promo--green_mod banner_promo--mask-1_mod" id="history">
+          <div class="banner_promo__body">
+            <div class="banner_promo__bg">
+              <div class="swiper banner_promo__image js-banner-promo-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide banner_promo__slider_item">
+                    <picture class="banner_promo__picture">
+                      <source srcset="images/event-list/01.jpg" type="image/jpeg"><img class="banner_promo__img" src="images/event-list/01.jpg" alt="Banner Promo Image" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide banner_promo__slider_item">
+                    <picture class="banner_promo__picture">
+                      <source srcset="images/event-list/02.jpg" type="image/jpeg"><img class="banner_promo__img" src="images/event-list/02.jpg" alt="Banner Promo Image" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide banner_promo__slider_item">
+                    <picture class="banner_promo__picture">
+                      <source srcset="images/event-list/03.jpg" type="image/jpeg"><img class="banner_promo__img" src="images/event-list/03.jpg" alt="Banner Promo Image" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide banner_promo__slider_item">
+                    <picture class="banner_promo__picture">
+                      <source srcset="images/event-list/04.jpg" type="image/jpeg"><img class="banner_promo__img" src="images/event-list/04.jpg" alt="Banner Promo Image" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide banner_promo__slider_item">
+                    <picture class="banner_promo__picture">
+                      <source srcset="images/event-list/05.jpg" type="image/jpeg"><img class="banner_promo__img" src="images/event-list/05.jpg" alt="Banner Promo Image" loading="eager">
+                    </picture>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="banner_promo__info">
+              <div class="banner_promo__content">
+                <h4>Sub-heading</h4>
+                <h3>Your new beginning</h3><strong>If you’re looking for an Auckland wedding venue with history, passion and beauty, we could be the perfect match for your new beginning.</strong>
+                <p>On the site of one of the most beloved racecourses in New Zealand with a story dating back to the 1800s, this is your opportunity to create your own slice of history on your big day here at Ellerslie Event Centre.</p><a href="#">Enquire now</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section text_block">
+          <div class="section_in">
+            <div class="text_block__content">
+              <h3>If you’re looking for an Auckland wedding venue with history, passion and beauty, we could be the perfect match for your new beginning.</h3>
+              <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla. Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p><a class="btn_white_2" href="#">Enquire now</a>
+            </div>
+          </div>
+        </section>
+        <section class="section venue_direction js-venue-direction-section">
+          <div class="section_wrap">
+            <div class="venue_direction__decor_picture"><img class="venue_direction__decor_img" src="images/decor_directions.svg" alt="decor"><img class="venue_direction__decor_img_mob" src="images/decor_directions_mob.svg" alt="decor"></div>
+            <div class="section_in venue_direction__in">
+              <div class="venue_direction__head">
+                <h2 class="venue_direction__title">Venue Directions</h2>
+                <div class="venue_direction__text">
+                  <p>Location directions to the venue dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices.</p>
+                </div>
+              </div>
+              <div class="venue_direction__dropdown js-venue-direction-dropdown">
+                <select class="venue_direction__dropdown_head js-venue-direction-select">
+                  <option value="tab-0" disabled selected>Campani Room</option>
+                  <option value="tab-0">Takanini Room</option>
+                  <option value="tab-1">Newmarket Room</option>
+                  <option value="tab-2">Hunterville Room</option>
+                  <option value="tab-3">New Zealand Room</option>
+                </select>
+              </div>
+              <div class="venue_direction__holder">
+                <div class="venue_direction__wrap js-venue-direction-tab" id="tab-0">
+                  <div class="venue_direction__col">
+                    <picture class="venue_direction__picture">
+                      <source media="(min-width: 1024px)" srcset="images/maps.jpg" type="image/jpeg">
+                      <source media="(max-width: 1023px)" srcset="images/maps_mob.jpg" type="image/jpeg"><img class="venue_direction__img" src="images/maps.jpg" alt="map" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="venue_direction__col">
+                    <div class="venue_direction__content">
+                      <h3>Getting here</h3>
+                      <p>Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                      <h3>Carpark A</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                      <h3>Directions</h3>
+                      <ol>
+                        <li>
+                          <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                        </li>
+                        <li>
+                          <p>Lorem ipsum dolor sit amet consectetur. Enim purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                        </li>
+                        <li>
+                          <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                        </li>
+                      </ol>
+                      <div class="venue_direction__content_btn_wrap"><a class="venue_direction__content_btn btn_black" href="#">Download PDF</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="venue_direction__wrap js-venue-direction-tab" id="tab-1">
+                  <div class="venue_direction__col">
+                    <picture class="venue_direction__picture">
+                      <source media="(min-width: 1024px)" srcset="images/maps.jpg" type="image/jpeg">
+                      <source media="(max-width: 1023px)" srcset="images/maps_mob.jpg" type="image/jpeg"><img class="venue_direction__img" src="images/maps.jpg" alt="map" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="venue_direction__col">
+                    <div class="venue_direction__content">
+                      <h3>Getting here 2</h3>
+                      <p>Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                      <h3>Carpark A 2</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                      <h3>Directions 2</h3>
+                      <ol>
+                        <li>
+                          <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                        </li>
+                        <li>
+                          <p>Lorem ipsum dolor sit amet consectetur. Enim purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                        </li>
+                        <li>
+                          <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                        </li>
+                      </ol>
+                      <div class="venue_direction__content_btn_wrap"><a class="venue_direction__content_btn btn_black" href="#">Download PDF</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="venue_direction__wrap js-venue-direction-tab" id="tab-2">
+                  <div class="venue_direction__col">
+                    <picture class="venue_direction__picture">
+                      <source media="(min-width: 1024px)" srcset="images/maps.jpg" type="image/jpeg">
+                      <source media="(max-width: 1023px)" srcset="images/maps_mob.jpg" type="image/jpeg"><img class="venue_direction__img" src="images/maps.jpg" alt="map" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="venue_direction__col">
+                    <div class="venue_direction__content">
+                      <h3>Getting here 3</h3>
+                      <p>Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                      <h3>Carpark A 3</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                      <h3>Directions 3</h3>
+                      <ol>
+                        <li>
+                          <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                        </li>
+                        <li>
+                          <p>Lorem ipsum dolor sit amet consectetur. Enim purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                        </li>
+                        <li>
+                          <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                        </li>
+                      </ol>
+                      <div class="venue_direction__content_btn_wrap"><a class="venue_direction__content_btn btn_black" href="#">Download PDF</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="venue_direction__wrap js-venue-direction-tab" id="tab-3">
+                  <div class="venue_direction__col">
+                    <picture class="venue_direction__picture">
+                      <source media="(min-width: 1024px)" srcset="images/maps.jpg" type="image/jpeg">
+                      <source media="(max-width: 1023px)" srcset="images/maps_mob.jpg" type="image/jpeg"><img class="venue_direction__img" src="images/maps.jpg" alt="map" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="venue_direction__col">
+                    <div class="venue_direction__content">
+                      <h3>Getting here 4</h3>
+                      <p>Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                      <h3>Carpark A 4</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                      <h3>Directions 4</h3>
+                      <ol>
+                        <li>
+                          <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                        </li>
+                        <li>
+                          <p>Lorem ipsum dolor sit amet consectetur. Enim purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                        </li>
+                        <li>
+                          <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                        </li>
+                      </ol>
+                      <div class="venue_direction__content_btn_wrap"><a class="venue_direction__content_btn btn_black" href="#">Download PDF</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="venue_direction__wrap js-venue-direction-tab" id="tab-4">
+                  <div class="venue_direction__col">
+                    <picture class="venue_direction__picture">
+                      <source media="(min-width: 1024px)" srcset="images/maps.jpg" type="image/jpeg">
+                      <source media="(max-width: 1023px)" srcset="images/maps_mob.jpg" type="image/jpeg"><img class="venue_direction__img" src="images/maps.jpg" alt="map" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="venue_direction__col">
+                    <div class="venue_direction__content">
+                      <h3>Getting here 5</h3>
+                      <p>Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                      <h3>Carpark A 5</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                      <h3>Directions 5</h3>
+                      <ol>
+                        <li>
+                          <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                        </li>
+                        <li>
+                          <p>Lorem ipsum dolor sit amet consectetur. Enim purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                        </li>
+                        <li>
+                          <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+                        </li>
+                      </ol>
+                      <div class="venue_direction__content_btn_wrap"><a class="venue_direction__content_btn btn_black" href="#">Download PDF</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section related_artciels related_artciels__4_col_mod">
+          <div class="section_in related_artciels_in">
+            <div class="related_artciels__header">
+              <h6>News</h6>
+              <h2>Related Articles</h2>
+            </div>
+            <div class="related_artciels__footer">
+              <ul class="related_artciels__body js-mobile-slider">
+                <li class="related_artciels__card"><a class="related_artciels__wrapper" href="#">
+                    <picture class="related_artciels__picture">
+                      <source media="(max-width: 1023px)" srcset="images/event-type/01.jpg" type="image/jpeg"><img class="related_artciels__img" src="images/event-type/01.jpg" alt="News card image" loading="eager">
+                    </picture>
+                    <div class="related_artciels__content">
+                      <h4>This is a news article headline block</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur enim tincidunt.</p>
+                    </div>
+                    <div class="related_artciels__btn"><strong>Read more</strong></div></a></li>
+                <li class="related_artciels__card"><a class="related_artciels__wrapper" href="#">
+                    <picture class="related_artciels__picture">
+                      <source media="(max-width: 1023px)" srcset="images/event-type/02.jpg" type="image/jpeg"><img class="related_artciels__img" src="images/event-type/02.jpg" alt="News card image" loading="eager">
+                    </picture>
+                    <div class="related_artciels__content">
+                      <h4>This is a news article headline block</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur enim tincidunt.</p>
+                    </div>
+                    <div class="related_artciels__btn"><strong>Read more</strong></div></a></li>
+                <li class="related_artciels__card"><a class="related_artciels__wrapper" href="#">
+                    <picture class="related_artciels__picture">
+                      <source media="(max-width: 1023px)" srcset="images/event-type/03.jpg" type="image/jpeg"><img class="related_artciels__img" src="images/event-type/03.jpg" alt="News card image" loading="eager">
+                    </picture>
+                    <div class="related_artciels__content">
+                      <h4>This is a news article headline block</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur enim tincidunt.</p>
+                    </div>
+                    <div class="related_artciels__btn"><strong>Read more</strong></div></a></li>
+                <li class="related_artciels__card"><a class="related_artciels__wrapper" href="#">
+                    <picture class="related_artciels__picture">
+                      <source media="(max-width: 1023px)" srcset="images/event-type/04.jpg" type="image/jpeg"><img class="related_artciels__img" src="images/event-type/04.jpg" alt="News card image" loading="eager">
+                    </picture>
+                    <div class="related_artciels__content">
+                      <h4>This is a news article headline block</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur enim tincidunt.</p>
+                    </div>
+                    <div class="related_artciels__btn"><strong>Read more</strong></div></a></li>
+              </ul>
+            </div>
+            <div class="related_artciels__button">
+              <button class="related_artciels__more" type="button">Browse all news</button>
+            </div>
+          </div>
+        </section>
+        <section class="section related_artciels related_artciels__3_col_mod">
+          <div class="section_in related_artciels_in">
+            <div class="related_artciels__header">
+              <h6>News</h6>
+              <h2>Related Articles</h2>
+            </div>
+            <div class="related_artciels__footer">
+              <ul class="related_artciels__body js-mobile-slider">
+                <li class="related_artciels__card"><a class="related_artciels__wrapper" href="#">
+                    <picture class="related_artciels__picture">
+                      <source media="(max-width: 1023px)" srcset="images/event-type/01.jpg" type="image/jpeg"><img class="related_artciels__img" src="images/event-type/01.jpg" alt="News card image" loading="eager">
+                    </picture>
+                    <div class="related_artciels__content">
+                      <h4>This is a news article headline block</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur enim tincidunt.</p>
+                    </div>
+                    <div class="related_artciels__btn"><strong>Read more</strong></div></a></li>
+                <li class="related_artciels__card"><a class="related_artciels__wrapper" href="#">
+                    <picture class="related_artciels__picture">
+                      <source media="(max-width: 1023px)" srcset="images/event-type/02.jpg" type="image/jpeg"><img class="related_artciels__img" src="images/event-type/02.jpg" alt="News card image" loading="eager">
+                    </picture>
+                    <div class="related_artciels__content">
+                      <h4>This is a news article headline block</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur enim tincidunt.</p>
+                    </div>
+                    <div class="related_artciels__btn"><strong>Read more</strong></div></a></li>
+                <li class="related_artciels__card"><a class="related_artciels__wrapper" href="#">
+                    <picture class="related_artciels__picture">
+                      <source media="(max-width: 1023px)" srcset="images/event-type/03.jpg" type="image/jpeg"><img class="related_artciels__img" src="images/event-type/03.jpg" alt="News card image" loading="eager">
+                    </picture>
+                    <div class="related_artciels__content">
+                      <h4>This is a news article headline block</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur enim tincidunt.</p>
+                    </div>
+                    <div class="related_artciels__btn"><strong>Read more</strong></div></a></li>
+              </ul>
+            </div>
+            <div class="related_artciels__button">
+              <button class="related_artciels__more" type="button">Browse all news</button>
+            </div>
+          </div>
+        </section>
+        <section class="section related_artciels related_artciels__2_col_mod">
+          <div class="section_in related_artciels_in">
+            <div class="related_artciels__header">
+              <h6>News</h6>
+              <h2>Related Articles</h2>
+            </div>
+            <div class="related_artciels__footer">
+              <ul class="related_artciels__body js-mobile-slider">
+                <li class="related_artciels__card"><a class="related_artciels__wrapper" href="#">
+                    <picture class="related_artciels__picture">
+                      <source media="(max-width: 1023px)" srcset="images/gallery/4.jpg" type="image/jpeg"><img class="related_artciels__img" src="images/gallery/4.jpg" alt="News card image" loading="eager">
+                    </picture>
+                    <div class="related_artciels__content">
+                      <h4>This is a news article headline block</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur enim tincidunt.</p>
+                    </div>
+                    <div class="related_artciels__btn"><strong>Read more</strong></div></a></li>
+                <li class="related_artciels__card"><a class="related_artciels__wrapper" href="#">
+                    <picture class="related_artciels__picture">
+                      <source media="(max-width: 1023px)" srcset="images/gallery/5.jpg" type="image/jpeg"><img class="related_artciels__img" src="images/gallery/5.jpg" alt="News card image" loading="eager">
+                    </picture>
+                    <div class="related_artciels__content">
+                      <h4>This is a news article headline block</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur enim tincidunt.</p>
+                    </div>
+                    <div class="related_artciels__btn"><strong>Read more</strong></div></a></li>
+              </ul>
+            </div>
+            <div class="related_artciels__button">
+              <button class="related_artciels__more" type="button">Browse all news</button>
+            </div>
+          </div>
+        </section>
+<section class="section testimonial_block js-testimonial-block-section">
+  <div class="section_in">
+    <div class="testimonial_block__header">
+      <h1>Testimonials</h1>
+      <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices.</p>
+    </div>
+    <div class="swiper testimonial_block__body js-get-testimonial-block-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide testimonial_block__card">
+          <div class="testimonial_block__wrapper">
+            <h6>testimonial</h6>
+            <p>Our Graduation Dinner has been held at Ellerslie Event Centre since 2008 as the venue caters for a quality event at the required scale. Liaison with the account manager was efficient and our changing needs were met.</p>
+            <h4>Michael Hart</h4>
+            <ul>
+              <li>Deputy Principal.</li>
+              <li>Botany Downs Secondary School</li>
+            </ul>
+          </div>
+        </div>
+        <div class="swiper-slide testimonial_block__card">
+          <div class="testimonial_block__wrapper">
+            <h6>testimonial</h6>
+            <p>Our Graduation Dinner has been held at Ellerslie Event Centre since 2008 as the venue caters for a quality event at the required scale. Liaison with the account manager was efficient and our changing needs were met.</p>
+            <h4>Michael Hart</h4>
+            <ul>
+              <li>Deputy Principal.</li>
+              <li>Botany Downs Secondary School</li>
+            </ul>
+          </div>
+        </div>
+        <div class="swiper-slide testimonial_block__card">
+          <div class="testimonial_block__wrapper">
+            <h6>testimonial</h6>
+            <p>Our Graduation Dinner has been held at Ellerslie Event Centre since 2008 as the venue caters for a quality event at the required scale. Liaison with the account manager was efficient and our changing needs were met.</p>
+            <h4>Michael Hart</h4>
+            <ul>
+              <li>Deputy Principal.</li>
+              <li>Botany Downs Secondary School</li>
+            </ul>
+          </div>
+        </div>
+        <div class="swiper-slide testimonial_block__card">
+          <div class="testimonial_block__wrapper">
+            <h6>testimonial</h6>
+            <p>Our Graduation Dinner has been held at Ellerslie Event Centre since 2008 as the venue caters for a quality event at the required scale. Liaison with the account manager was efficient and our changing needs were met.</p>
+            <h4>Michael Hart</h4>
+            <ul>
+              <li>Deputy Principal.</li>
+              <li>Botany Downs Secondary School</li>
+            </ul>
+          </div>
+        </div>
+        <div class="swiper-slide testimonial_block__card">
+          <div class="testimonial_block__wrapper">
+            <h6>testimonial</h6>
+            <p>Our Graduation Dinner has been held at Ellerslie Event Centre since 2008 as the venue caters for a quality event at the required scale. Liaison with the account manager was efficient and our changing needs were met.</p>
+            <h4>Michael Hart</h4>
+            <ul>
+              <li>Deputy Principal.</li>
+              <li>Botany Downs Secondary School</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-scrollbar"></div>
+    </div>
+  </div>
+</section>
+        <section class="section get_social js-get-social-section">
+          <div class="section_in get_social_in">
+            <div class="get_social__body">
+              <div class="get_social__header">
+                <div class="get_social__title">Get social</div>
+                <div class="get_social__subtitle">Follow <a href="#">@EllerslieEvents</a> on Instagram</div>
+              </div>
+              <div class="swiper get_social__slider js-get-social-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide get_social__slider_item"><a class="get_social__link" href="#" aria-label="Instagram picture">
+                      <picture class="get_social__picture">
+                        <source media="(max-width: 1023px)" srcset="images/get-social/01.jpg" type="image/jpeg"><img class="get_social__img" src="images/get-social/01.jpg" alt="Get Social Slider" loading="eager">
+                      </picture></a></div>
+                  <div class="swiper-slide get_social__slider_item"><a class="get_social__link" href="#" aria-label="Instagram picture">
+                      <picture class="get_social__picture">
+                        <source media="(max-width: 1023px)" srcset="images/get-social/02.jpg" type="image/jpeg"><img class="get_social__img" src="images/get-social/02.jpg" alt="Get Social Slider" loading="eager">
+                      </picture></a></div>
+                  <div class="swiper-slide get_social__slider_item"><a class="get_social__link" href="#" aria-label="Instagram picture">
+                      <picture class="get_social__picture">
+                        <source media="(max-width: 1023px)" srcset="images/get-social/03.jpg" type="image/jpeg"><img class="get_social__img" src="images/get-social/03.jpg" alt="Get Social Slider" loading="eager">
+                      </picture></a></div>
+                  <div class="swiper-slide get_social__slider_item"><a class="get_social__link" href="#" aria-label="Instagram picture">
+                      <picture class="get_social__picture">
+                        <source media="(max-width: 1023px)" srcset="images/get-social/04.jpg" type="image/jpeg"><img class="get_social__img" src="images/get-social/04.jpg" alt="Get Social Slider" loading="eager">
+                      </picture></a></div>
+                  <div class="swiper-slide get_social__slider_item"><a class="get_social__link" href="#" aria-label="Instagram picture">
+                      <picture class="get_social__picture">
+                        <source media="(max-width: 1023px)" srcset="images/get-social/05.jpg" type="image/jpeg"><img class="get_social__img" src="images/get-social/05.jpg" alt="Get Social Slider" loading="eager">
+                      </picture></a></div>
+                  <div class="swiper-slide get_social__slider_item"><a class="get_social__link" href="#" aria-label="Instagram picture">
+                      <picture class="get_social__picture">
+                        <source media="(max-width: 1023px)" srcset="images/get-social/01.jpg" type="image/jpeg"><img class="get_social__img" src="images/get-social/01.jpg" alt="Get Social Slider" loading="eager">
+                      </picture></a></div>
+                  <div class="swiper-slide get_social__slider_item"><a class="get_social__link" href="#" aria-label="Instagram picture">
+                      <picture class="get_social__picture">
+                        <source media="(max-width: 1023px)" srcset="images/get-social/02.jpg" type="image/jpeg"><img class="get_social__img" src="images/get-social/02.jpg" alt="Get Social Slider" loading="eager">
+                      </picture></a></div>
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section join_our_newsletter">
+          <div class="section_in">
+            <div class="decor_img decor_img--coral_mod ">
+              <picture class="decor_img__bg_in">
+                <source media="(max-width: 1023px)" srcset="images/decor_newsletter.svg" type="image/svg"><img class="decor_img__bg" src="images/decor_newsletter.svg" alt="decorative background element" loading="eager">
+              </picture>
+            </div>
+            <div class="join_our_newsletter__content">
+              <h3 class="join_our_newsletter__title">Join our newsletter</h3>
+              <div class="join_our_newsletter__text">
+                <p>Lorem ipsum dolor sit amet consectetur. Enim tincidunt ullamcorper faucibus neque venenatis purus urna ultrices. In fermentum accumsan enim vitae fringilla.</p>
+              </div>
+              <form class="join_our_newsletter__form" action="#">
+                <div class="join_our_newsletter__form__wrap">
+                  <div class="join_our_newsletter__form_input">
+                    <div class="form_input">
+                      <label class="form_newsletter__label" for="join_our_newsletter_email">email</label>
+                      <div class="form_input__field">
+                        <input class="form_newsletter__input" type="email" id="join_our_newsletter_email" placeholder="Keep up to date, enter your email" value="">
+                      </div>
+                    </div>
+                  </div>
+                  <button class="join_our_newsletter__form_btn" type="submit">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+        <div class="popup popup_download js-popup-download">
+          <div class="popup_in">
+            <picture class="popup_decor__picture">
+              <source media="(max-width: 1023px)" srcset="images/decor_popup.svg" type="image/svg"><img class="popup_decor__img" src="images/decor_popup.svg" alt="decorative background element" loading="eager">
+            </picture>
+            <button class="popup_close js-popup-close" type="button" aria-label="Close Popup" tabindex="0"></button>
+            <div class="download_popup__content">
+              <h2 class="download_popup__title">Download brochure</h2>
+              <div class="download_popup__descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis eaque, quibusdam quo maxime inventore repellendus necessitatibus</div>
+              <form class="download_popup__form" action="#" method="get">
+                <div class="download_popup__form_in">
+                  <div class="download_popup__form_row_w">
+                    <div class="download_popup__form_row">
+                      <div class="download_popup__form_col">
+                        <div class="download_popup__input">
+                          <label class="download_popup__input_label" for="download_00">First name</label>
+                          <div class="download_popup__input_field">
+                            <input class="download_popup__input_element" id="download_00">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="download_popup__form_col">
+                        <div class="download_popup__input">
+                          <label class="download_popup__input_label" for="download_01">Email address</label>
+                          <div class="download_popup__input_field">
+                            <input class="download_popup__input_element" id="download_01">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="download_popup__form_row_w">
+                    <div class="download_popup__form_row">
+                      <div class="download_popup__form_col">
+                        <div class="download_popup__input">
+                          <label class="download_popup__input_label" for="download_10">Phone number</label>
+                          <div class="download_popup__input_field">
+                            <input class="download_popup__input_element" id="download_10">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="download_popup__form_col">
+                        <div class="download_popup__input">
+                          <label class="download_popup__input_label" for="download_11">Company</label>
+                          <div class="download_popup__input_field">
+                            <input class="download_popup__input_element" id="download_11">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="download_popup__form_btn_w">
+                    <button class="download_popup__form_btn btn_white" type="submit">Download now</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer_in">
+          <div class="footer__top">
+            <div class="footer__logo"><a class="footer__picture" href="#" aria-label="Company">
+                <svg class="icon icon_ellerslie icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#ellerslie"></use>
+                </svg></a>
+            </div>
+            <div class="footer__actions">
+              <ul class="footer__list footer__list--top_mod">
+                <li class="footer__item"><a class="footer__link" href="#">Facebook</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Instagram</a></li>
+              </ul>
+              <ul class="footer__list">
+                <li class="footer__item"><a class="footer__link" href="tel:095244069">09-524-4069</a></li>
+                <li class="footer__item"><a class="footer__link" href="mailto:functions@ellerslie.co.nz">functions@ellerslie.co.nz</a></li>
+                <li class="footer__item">100 Ascot Avenue, Remuera,</li>
+                <li class="footer__item">Auckland 1050</li>
+              </ul>
+            </div>
+            <div class="footer__logo">
+              <ul class="footer__list footer__list--bottom_mod">
+                <li class="footer__item footer__item--bottom_mod"><a class="footer__link" href="#">Terms & Conditions</a></li>
+                <li class="footer__item footer__item--bottom_mod"><a class="footer__link" href="#">Privacy Policy</a></li>
+              </ul><a class="footer__picture footer__picture--small_mod" href="#" aria-label="Company">
+                <svg class="icon icon_atr icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#atr"></use>
+                </svg></a>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <ul class="footer__list footer__list--bottom_mod">
+              <li class="footer__item footer__item--bottom_mod"><a class="footer__link" href="#">Terms & Conditions</a></li>
+              <li class="footer__item footer__item--bottom_mod"><a class="footer__link" href="#">Privacy Policy</a></li>
+            </ul>
+            <div class="footer__text">© Copyright Ellerslie Events Center</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="popup popup_download js-popup-download">
+      <div class="popup_in">
+        <picture class="popup_decor__picture">
+          <source media="(max-width: 1023px)" srcset="images/decor_popup.svg" type="image/svg"><img class="popup_decor__img" src="images/decor_popup.svg" alt="decorative background element" loading="eager">
+        </picture>
+        <button class="popup_close js-popup-close" type="button" aria-label="Close Popup" tabindex="0"></button>
+        <div class="download_popup__content">
+          <h2 class="download_popup__title">Download brochure</h2>
+          <div class="download_popup__descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis eaque, quibusdam quo maxime inventore repellendus necessitatibus</div>
+          <form class="download_popup__form" action="#" method="get">
+            <div class="download_popup__form_in">
+              <div class="download_popup__form_row_w">
+                <div class="download_popup__form_row">
+                  <div class="download_popup__form_col">
+                    <div class="download_popup__input">
+                      <label class="download_popup__input_label" for="download_00">First name</label>
+                      <div class="download_popup__input_field">
+                        <input class="download_popup__input_element" id="download_00">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="download_popup__form_col">
+                    <div class="download_popup__input">
+                      <label class="download_popup__input_label" for="download_01">Email address</label>
+                      <div class="download_popup__input_field">
+                        <input class="download_popup__input_element" id="download_01">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="download_popup__form_row_w">
+                <div class="download_popup__form_row">
+                  <div class="download_popup__form_col">
+                    <div class="download_popup__input">
+                      <label class="download_popup__input_label" for="download_10">Phone number</label>
+                      <div class="download_popup__input_field">
+                        <input class="download_popup__input_element" id="download_10">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="download_popup__form_col">
+                    <div class="download_popup__input">
+                      <label class="download_popup__input_label" for="download_11">Company</label>
+                      <div class="download_popup__input_field">
+                        <input class="download_popup__input_element" id="download_11">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="download_popup__form_btn_w">
+                <button class="download_popup__form_btn btn_white" type="submit">Download now</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  <script defer src="js/runtime.js"></script><script defer src="js/app.js"></script></body>
+</html>
